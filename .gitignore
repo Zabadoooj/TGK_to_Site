@@ -1,0 +1,15 @@
+
+.env
+
+# Frontend
+frontend/node_modules
+# testing
+frontend/coverage
+# production
+frontend/build
+
+# Backend
+/backend/bot/.env
+/backend/bot/Lib
+/backend/bot/__pycache__
+/backend/bot/Include/__pycache__

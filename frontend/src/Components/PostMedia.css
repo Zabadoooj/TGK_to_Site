@@ -1,0 +1,11 @@
+
+.Post{
+    background-color: white;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    border: 20px;
+    z-index: 1;
+}

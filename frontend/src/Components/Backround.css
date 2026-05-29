@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
+  overflow: hidden;
+}
+
+
+.shooting-star {
+    z-index: -1;
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, white, transparent);
+    animation: shoot 3s infinite ease-in;
+}
+
+.shooting-star:nth-child(1) {
+    top: 10%;
+    left: -150px;
+    animation-delay: 0s;
+}
+
+.shooting-star:nth-child(2) {
+    top: 35%;
+    left: -150px;
+    animation-delay: 1s;
+}
+
+.shooting-star:nth-child(3) {
+    top: 50%;
+    left: -150px;
+    animation-delay: 2s;
+}
+
+@keyframes twinkle {
+    0%,
+    100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes shoot {
+    0% {
+        transform: translateX(0) translateY(0) rotate(200deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(120vw) translateY(50vh) rotate(220deg);
+        opacity: 0;
+    }
+}

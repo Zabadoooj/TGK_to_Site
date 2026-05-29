@@ -1,0 +1,23 @@
+.Header{
+    background-color: #151531;
+    color: white;
+
+    text-align: center;
+    font-size: 13px;
+
+    padding: 10px;
+}
+
+.Name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondPartName{
+    background-color: #9d3532;
+    
+    padding: 5px;
+    border-radius: 12px;
+}
