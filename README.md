@@ -32,9 +32,9 @@ cd ./bacend/bot
 pip install requirements.txt  
 ```
 
-7. Запускаем нашего бота
+7. Запускаем наш локальный сервер (бэк)
 ```
-python ./Include/tg_bot.py
+uvicorn tg_bot:app --reload
 ```
 
 8. Во втором терминале устанавливаем зависимости для фронта
